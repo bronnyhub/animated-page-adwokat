@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Ubuntu&display=swap');
+
 .App {
   text-align: center;
+  font-family: 'Architects Daughter', cursive;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .App-main {
-  background-color: #074212;
+  background-color: #0D1821;
   height: 100vh;
   display: flex;
   flex-direction: column;

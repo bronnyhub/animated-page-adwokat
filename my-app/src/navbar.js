@@ -6,13 +6,19 @@ function Navbar() {
       <nav>
         <ul>
           <li>
-            <a href="/">Home</a>
+            <a href="/"><img src={'./logo.png'} alt='logo' className='logo'></img></a>
           </li>
           <li>
-            <a href="/about">About</a>
+            <a href="/">Strona Główna</a>
           </li>
           <li>
-            <a href="/contact">Contact</a>
+            <a href="/about">O mnie</a>
+          </li>
+          <li>
+            <a href="/contact">Usługi</a>
+          </li>
+          <li>
+            <a href="/contact">Kontakt</a>
           </li>
         </ul>
       </nav>
