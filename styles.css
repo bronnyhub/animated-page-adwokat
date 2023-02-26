@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #02240c;
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar {
+    color: #fdfffd;
+}
+
+.navbar-ul {
+    list-style: none;
+}
+
+.navbar-ul li {
+    display: inline;
+    justify-content: space-between;
+    cursor: pointer;
+}
