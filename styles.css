@@ -1,21 +1,51 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #02240c;
+    background-color: #fdfffd;
     font-family: 'Architects Daughter', cursive;
     font-family: 'Ubuntu', sans-serif;
 }
 
 .navbar {
+    background-color: #02240c;
     color: #fdfffd;
-}
-
-.navbar-ul {
-    list-style: none;
-}
-
-.navbar-ul li {
-    display: inline;
+    display: flex;
+    align-items: center;
     justify-content: space-between;
+    gap:30px;
+    height:150px;
+    padding: 0 20px;
+}
+
+.logo-img {
+    height:150px;
+}
+
+.logo{
+    font-size: 30px;
+    display:flex;
+}
+
+
+.odnosniki {
+    cursor: pointer;
+    justify-content: space-between;
+}
+
+.odnosniki a {
+    text-decoration: none;
+    color:#fdfffd;
+    padding: 0 50px;
+}
+
+
+.odnosniki:hover {
+    text-decoration: underline;
+}
+
+
+.menu-burger {
+    background-color:transparent;
+    border:none;
     cursor: pointer;
 }
