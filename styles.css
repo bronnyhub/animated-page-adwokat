@@ -27,19 +27,16 @@ body {
 }
 
 
-.odnosniki {
+.odnosnik {
     cursor: pointer;
     justify-content: space-between;
-}
-
-.odnosniki a {
     text-decoration: none;
     color:#fdfffd;
     padding: 0 50px;
 }
 
 
-.odnosniki:hover {
+.odnosnik:hover {
     text-decoration: underline;
 }
 
@@ -48,4 +45,22 @@ body {
     background-color:transparent;
     border:none;
     cursor: pointer;
+}
+
+.omnie {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.omnie-div {
+    padding:80px;
+}
+
+.logo2-div {
+    padding:80px;
+}
+
+.logo2 {
+    height:300px;
 }
